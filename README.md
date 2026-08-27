@@ -5,9 +5,7 @@ multi-outcome, and cross-disease analysis of digital mobility outcomes (DMOs).
 It combines fused temporal regularisation, sparse group selection, and
 automatic relation learning across clinical prediction objectives.
 
-This repository contains the DeMMO implementation supporting the accompanying
-manuscript. Experimental results and baseline implementations are intentionally
-not included in this release.
+This repository provides the implementation code for DeMMO.
 
 ## Repository contents
 
@@ -78,10 +76,6 @@ python scripts/run_demmo_two_stage.py /path/to/Mobilise-D \
 Run the experiment with seeds 42--46 to reproduce the five matched
 participant-level splits. All visits from one participant remain in the same
 split, and preprocessing statistics are estimated from training data only.
-
-The experiment directory contains participant-level outputs for local
-verification. These files are deliberately ignored by Git and must not be
-published.
 
 ## Non-convex extensions
 
