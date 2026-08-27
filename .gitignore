@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Protected Mobilise-D data
+data/
+dataset/
+datasets/
+outcome/
+*_dataset.csv
+
+# Participant-level or potentially identifying outputs
+participant_split*.csv
+participant_splits*.csv
+test_predictions*.csv
+predictions*.csv
+*participant*.csv
+*subject*.csv
+*patient*.csv
+
+# Locally generated models and checkpoints
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.pt
+*.pth
+checkpoints/
+
+# Local experiment directories and logs
+outputs/
+runs/
+logs/
+*.log
+
+# Credentials and environment files
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
